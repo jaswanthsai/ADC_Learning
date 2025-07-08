@@ -47,6 +47,26 @@ Develop a deep understanding of ADC hardware, theory, and implement a register-l
 ---
 
 ## Step-by-Step Progress
+### [2025-07-07] Day 1 - Project Initialization & ADC Driver Skeleton
+
+- **Description:**  
+  - Initialized GitHub repository for ADC driver learning project.  
+  - Created project structure: `src/`, `docs/`, `inc/`.  
+  - Added `adc_driver_pseudocode.c` with high-level pseudocode for STM32 ADC driver.  
+  - Resolved common Git setup issues (safe.directory, file extension problems).  
+
+- **Code Location:**  
+  `src/adc_driver_pseudocode.c`
+
+- **Outcome:**  
+  Initial repository structure complete. First C file committed. Confident in pushing, tracking, and progressing using Git.
+
+- **Next Steps:**  
+  - Read STM32F4 ADC section of the reference manual.  
+  - Expand pseudocode into detailed register interactions.  
+  - Create header files to prepare for HAL abstraction.
+
+
 
 ### [2025-07-07] Project Setup and Bitwise Practice
 
