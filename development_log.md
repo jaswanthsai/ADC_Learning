@@ -53,7 +53,27 @@ Develop a deep understanding of ADC hardware, theory, and implement a register-l
 - **Description:** Created project structure with `src/`, `inc/`, `docs/`, and development log.
 - **Code Location:** `ADC_Learning/`
 - **Outcome:** Organized project space ready, initial bitwise operations practiced for setting/clearing bits.
-- **Next Steps:** Review C pointers and memory-mapped I/O basics before moving to STM32 ADC study.
+- **Next Steps:** Review C pointers and memory-mapped I/O basics before moving to STM32 ADC study.### Day 2 - July 8, 2025
+
+**Tasks Completed:**
+- Created adc_driver.c with ADC_Init() and ADC_Read() functions (skeleton)
+- Created main.c to call ADC functions in infinite loop
+- Wrote basic Makefile for ARM GCC toolchain
+
+**What I Learned:**
+- How to plan register-level ADC code
+- Role of clock config and GPIO analog setup before ADC
+- First look at build process with Makefile
+
+**Next Steps:**
+- Write real register-level code in ADC_Init()
+- Add STM32 header file or manually define registers
+- Create minimal linker script for compiling
+
+
+
+
+
 
 ---
 
