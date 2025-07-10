@@ -75,6 +75,13 @@ Develop a deep understanding of ADC hardware, theory, and implement a register-l
 
 
 
+## Current Status (2025-07-10)
+
+- Set up project structure and initial files (`stm32f4xx.h`, `start.c`, `linker_script.ld`, Makefile).
+- Planning build environment setup (ARM toolchain installation pending).
+- Next: Implement UART debug output and prepare for hardware testing once STM32F4 board arrives.
+
+
 ---
 
 ## Pending Issues / TODOs
